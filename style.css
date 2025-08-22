@@ -1158,7 +1158,7 @@ body {
   position: relative;
   padding-left: var(--space-16);
   margin-bottom: var(--space-12);
-  color: var(--color-description-text);    /* -dark-text);   */
+  color: var(--color-primary-blue);    /* -dark-text);   */
   font-size: var(--font-size-base);
   line-height: 1.6;
   font-weight: 400;
