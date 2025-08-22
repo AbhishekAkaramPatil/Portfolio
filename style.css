@@ -1009,7 +1009,7 @@ body {
 }
 
 .value-card p {
-  color: var(--color-primary-blue);
+  color: var(--color-neutral-gray);
   font-size: var(--font-size-base);
   line-height: 1.5;
   margin: 0;
