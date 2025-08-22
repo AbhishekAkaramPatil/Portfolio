@@ -1142,7 +1142,7 @@ body {
 
 .timeline-description p {
   color: var(--color-neutral-gray);                           /*dark-text*/
-  font-weight: 800;   /* var(--font-weight-medium); */
+  font-weight: 400;   /* var(--font-weight-medium); */
   margin: 0;
   font-size: var(--font-size-base);
   line-height: 1.5;
