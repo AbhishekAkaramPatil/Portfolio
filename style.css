@@ -1691,14 +1691,14 @@ body {
 
   .timeline-item {
     width: 100%;
-    left: 0 !important;
+    left: 0!important;
     padding-left: 50px !important;
     padding-right: 0 !important;
   }
 
   .timeline-marker {
-    left: 12px !important;
-    right: auto !important;
+    left: 12px! important;
+    right: auto! important;
   }
 
   .contact-content {
