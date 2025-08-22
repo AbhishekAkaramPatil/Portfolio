@@ -1372,7 +1372,6 @@ body {
 
 .project-impact {
   background: var(--color-bg-3);
-  color: var( --color-white);
   padding: var(--space-12);
   border-radius: var(--radius-base);
   margin-bottom: var(--space-12);
