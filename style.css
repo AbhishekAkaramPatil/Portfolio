@@ -1801,7 +1801,7 @@ body {
 }
 
 [data-color-scheme="dark"] .timeline-achievements li {
-  color: var(--color-secondary-green);
+  color: var(--color-gray-200);
 }
 
 [data-color-scheme="dark"] .project-image {
