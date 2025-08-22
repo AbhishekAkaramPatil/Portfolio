@@ -1131,7 +1131,7 @@ body {
 
 .timeline-period {
   font-size: var(--font-size-sm);
-  color: var(--color-neutral-gray);
+  color: var(--color-secondary-text);
   margin-right: var(--space-8);
 }
 
