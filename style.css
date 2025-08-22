@@ -1141,7 +1141,7 @@ body {
 }
 
 .timeline-description p {
-  color: var(--color-description-text);                           /*dark-text*/
+  color: var(--color-neutral-gray);                           /*dark-text*/
   font-weight: 800;   /* var(--font-weight-medium); */
   margin: 0;
   font-size: var(--font-size-base);
