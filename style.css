@@ -1134,8 +1134,8 @@ body {
 }
 
 .timeline-description p {
-  color: var(--color-dark-text);
-  font-weight: var(--font-weight-medium);
+  color: var(--color-description-text);                           /*dark-text*/
+  font-weight: 400;   /* var(--font-weight-medium); */
   margin: 0;
   font-size: var(--font-size-base);
   line-height: 1.5;
@@ -1151,7 +1151,7 @@ body {
   position: relative;
   padding-left: var(--space-16);
   margin-bottom: var(--space-12);
-  color: var(--color-dark-text);
+  color: var(--color-description-text);    /* -dark-text);   */
   font-size: var(--font-size-base);
   line-height: 1.6;
   font-weight: 400;
