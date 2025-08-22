@@ -962,7 +962,7 @@ body {
   gap: var(--space-16);
 }
 
-/* About Section */
+/* About Section - Enhanced Text Visibility */
 .about-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -975,6 +975,7 @@ body {
   line-height: 1.6;
   color: var(--color-primary-blue);
   margin-bottom: var(--space-32);
+  font-weight: var(--font-weight-medium);
 }
 
 .values-grid {
@@ -1007,6 +1008,12 @@ body {
   margin-bottom: var(--space-8);
 }
 
+.value-card p {
+  color: var(--color-description-text);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  margin: 0;
+}
 .achievements h3 {
   color: var(--color-primary-blue);
   margin-bottom: var(--space-24);
