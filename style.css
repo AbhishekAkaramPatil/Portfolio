@@ -1784,11 +1784,11 @@ body {
 /* Dark Mode Support - Enhanced text visibility */
 @media (prefers-color-scheme: dark) {
   .timeline-description p {
-    color: var(--color-gray-400);
+    color: var(--color-gray-200);
   }
 
   .timeline-achievements li {
-    color: var(--color-gray-400);
+    color: var(--color-gray-200);
   }
 
   .project-image {
@@ -1797,7 +1797,7 @@ body {
 }
 
 [data-color-scheme="dark"] .timeline-description p {
-  color: var(--color-gray-400);
+  color: var(--color-gray-200);
 }
 
 [data-color-scheme="dark"] .timeline-achievements li {
