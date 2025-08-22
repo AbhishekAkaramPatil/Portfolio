@@ -1870,3 +1870,50 @@ body {
     height: 150px;
   }
 }
+
+/* Additional Text Visibility Enhancements */
+.section-header p,
+.timeline-period,
+.metric-label,
+.cert-content p,
+.project-impact {
+  color: var(--color-secondary-text) !important;
+}
+
+.timeline-description p,
+.timeline-achievements li,
+.project-content p,
+.value-card p,
+.achievement-item p,
+.innovation-card p,
+.innovation-card li,
+.contact-info p,
+.contact-item p {
+  color: var(--color-description-text) !important;
+}
+
+/* Ensure all text elements have sufficient contrast */
+p, li, span, div {
+  color: var(--color-description-text);
+}
+
+/* Override any potential white text issues */
+.timeline-content *:not(h3):not(.timeline-company):not(.status) {
+  color: var(--color-description-text) !important;
+}
+
+.project-content *:not(h3):not(.project-company):not(.tech-tag) {
+  color: var(--color-description-text) !important;
+}
+
+.value-card *:not(h4):not(.value-icon) {
+  color: var(--color-description-text) !important;
+}
+
+.achievement-item *:not(h4):not(.achievement-icon) {
+  color: var(--color-description-text) !important;
+}
+
+.innovation-card *:not(h3):not(.innovation-icon) {
+  color: var(--color-description-text) !important;
+}
