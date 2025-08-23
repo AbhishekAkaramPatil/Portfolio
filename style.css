@@ -833,7 +833,7 @@ body {
 }
 
 .nav-link {
-  color: var(--color-gray);
+  color: var(--color-gray-400);
   text-decoration: none;
   font-weight: var(--font-weight-medium);
   transition: color var(--duration-fast) var(--ease-standard);
