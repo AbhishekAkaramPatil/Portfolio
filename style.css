@@ -1421,7 +1421,7 @@ body {
 
 .skill-name {
   font-weight: var(--font-weight-medium);
-  color: var(--color-text);
+  color: var(--color-dark-text);
 }
 
 .skill-bar {
