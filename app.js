@@ -166,7 +166,7 @@ function initProjectFilters() {
             
             // Filter projects with improved animation
             projectCards.forEach((card, index) => {
-                const category = card.getAttribute('data-category') || '')
+                const category = (card.getAttribute('data-category') || '')
                 .trim()
                 .split(/\s+/); // ["water","environmental"]
                 const shouldShow = filter === 'all' || category === filter;
