@@ -1917,3 +1917,13 @@ p, li, span, div {
 .innovation-card *:not(h3):not(.innovation-icon) {
   color: var(--color-description-text) !important;
 }
+
+/* Highlight current role */
+.timeline-item.current .timeline-content {
+  border-left: 4px solid var(--color-primary);
+  background: rgba(33, 128, 141, 0.05);
+}
+
+.timeline-item.current h3 {
+  color: var(--color-primary);
+}
